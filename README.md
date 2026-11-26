@@ -9,7 +9,7 @@ I work as a pharmacist, so the treatment gap is the number I care about most.
 - WHO Global Health Observatory API (https://www.who.int/data/gho), pulled by `src/fetch.py`.
 - Indicators: diabetes prevalence (age-standardised, adults 18+ and 30+), diabetes treatment coverage (30+), adult obesity (BMI 30+), raised blood pressure (30 to 79).
 - The values are model estimates from pooled population surveys (NCD-RisC), not a count of patients. Each one comes with an uncertainty interval, and the intervals for single countries are wide. For example, Saudi Arabia 2022 is 20.8% with an interval of 12.2 to 31.1%.
-- Raw pull: `data/who_ncd_gulf_egypt.csv`. Result tables are the other CSVs in `data/`.
+- The raw pull (`data/who_ncd_gulf_egypt.csv`, 460 KB) is not stored here. `src/fetch.py` recreates it. The result tables are the CSVs in `data/`.
 
 ## What I found
 
